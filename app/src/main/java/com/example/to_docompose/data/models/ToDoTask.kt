@@ -1,10 +1,10 @@
-package com.example.to_docompose.data.models;
+package com.example.to_docompose.data.models
 
-import androidx.room.Entity;
+import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.example.to_docompose.util.Constants.DATABASE_TABLE
+import com.example.to_docompose.util.Constants
 
-@Entity(tableName = DATABASE_TABLE)
+@Entity(tableName = Constants.DATABASE_TABLE)
 data class ToDoTask (
 
     @PrimaryKey(autoGenerate = true)

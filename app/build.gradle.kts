@@ -57,6 +57,9 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
 
+    // Compose Navigation
+    implementation(libs.androidx.navigation.compose)
+
     // Room components for local database
     implementation(libs.androidx.room.runtime)
     kapt(libs.androidx.room.compiler)
